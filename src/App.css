@@ -1,19 +1,65 @@
-.App {
-  text-align: center;
+body{
+
+
+  background-color: #282c34;
+  
+  
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+
+
+
+
+
+#hea{
+  font-size: 1cm; 
+background-color: aqua;
+position: relative; /* Add this to enable relative positioning */
+animation-name: move;
+animation-name: move;
+animation-duration: 6s;
+animation-iteration-count: infinite;}
+
+
+
+@keyframes move{
+
+from{  
+
+  left:0;
+  background-color: aqua;
+  
+
+
+
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+to{
+
+  left:60%;
+
+  /* font-size: 2cm;  */
+  background-color: yellow;
+
+
+
+
 }
 
-.App-header {
+
+}
+#i1{
+
+height: 30px;
+
+width:200px
+
+}
+
+
+
+
+/* .App-header {
   background-color: #282c34;
   min-height: 100vh;
   display: flex;
@@ -35,4 +81,4 @@
   to {
     transform: rotate(360deg);
   }
-}
+} */
