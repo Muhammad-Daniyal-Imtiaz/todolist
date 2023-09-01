@@ -16,6 +16,7 @@ function App() {
       const newData = { name: name, age: null, status: '' };
       setN([...n, newData]);
       setName('');
+      
     }
   }
 
